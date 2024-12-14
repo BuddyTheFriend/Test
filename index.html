@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mobile web page demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-first">
+            <div class="dropdown">
+                <div class="drop-down-icon">
+                    <div class="object-logo"></div>
+                    <div class="object-logo"></div>
+                    <div class="object-logo"></div>
+                </div>
+                <ul class="drop-down-content">
+                    <li>more info</li>
+                    <li>contact us</li>
+                    <li>help</li>
+                    <li>sign in</li>
+                    <li>account</li>
+                </ul>
+            </div>
+            <h1 class="header-title">Title</h1>
+        </div>
+        <nav class="nav-bar">
+            <a href="#" class="active">home</a>
+            <a href="#information">info</a>
+            <a href="#">our sale</a>
+            <a href="#">contact</a>
+        </nav>
+    </header>
+    
+    <main class="main-content-container">
+        <div class="orientation">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="img-title1.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="img-title2.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="img-title3.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="img-title1.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="img-title2.jpg" style="width:100%">
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+            <br>
+            
+            <div class="image-title-container">
+                <div class="home-item">
+                    <div class="home-card"></div>
+                    <div class="home-card"></div>
+                </div>
+            </div>
+            
+            <div class="web-information">
+                <div class="information">
+                    <h2>Welcome to Our Website</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde quasi ratione asperiores hic, culpa accusantium eum. Rem dignissimos tenetur quam quae temporibus officia, nulla ad sapiente delectus.</p>
+                </div>
+            </div>
+            <div class="form">
+                <form action="#">
+                    <input type="search" id="search-bar" class="search-bar" placeholder="explore ...">
+                    <button id="submit-button" class="submit-button">Search</button>
+                </form>
+            </div>
+            <h4 class="main-content-title">our collection</h4>
+            
+            <section class="filter" color="blue">
+                <select id="category-filter" onchange="filterCategory()">
+                    <option value="">Pilih Kategori</option>
+                    <option value="card-1">besar  (20-30orang)</option>
+                    <option value="card-2">sedang (10-20orang)</option>
+                    <option value="card-3">kecil  (< 10orang)</option>
+                </select>
+            </section>
+        </div>
+        
+        <div class="card-row">
+            <div class="card">
+                <div class="card-img"></div>
+                <div class="card-content">
+                    <h2 class="card-title">Villa for rent</h2>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-img"></div>
+                <div class="card-content">
+                    <h2 class="card-title">Villa for rent</h2>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-img"></div>
+                <div class="card-content">
+                    <h2 class="card-title">Villa for rent</h2>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-img"></div>
+                <div class="card-content">
+                    <h2 class="card-title">Villa for rent</h2>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-img"></div>
+                <div class="card-content">
+                    <h2 class="card-title">Villa for rent</h2>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <p>© 2024 Your Website | All Rights Reserved</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+  </html>
